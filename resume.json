@@ -39,15 +39,15 @@
       "website": "http://www.mwgroup.net/",
       "startDate": "2010-01-10",
       "endDate": "2016-07-01",
-      "summary": "Successfully proven in the following areas, System and Database Administration, Maintaining In-house developed applications and Project Management. With my knowledge in SQL and Computer Programming I integrated Heterogeneous Systems into simple business solutions.",
+      "summary": "Successfully proven in the following areas, System and Database Administration, Maintaining In-house developed applications and Project Management. With my knowledge in SQL and Computer Programming I integrated heterogeneous system into simple business solutions.",
       "highlights": [
         "Administrate a Data Historian System of 100K items.",
-        "Coordinate Control Systems and Historian Systems upgrades with minimum downtime to the manufacturing process.",
+        "Coordinate Control Systems and Historian Systems upgrades with minimum downtime to the manufacturing process. We reduced downtime from 2 hours to 15 minutes mainly through the utilization of virtual servers.",
         "Acquire and analyze raw data using SQL to support process investigations.",
         "Migrate ASP.NET 1.1 code to .NET 4.0.",
-        "Modify ASP.NET applications on C# and VB.NET to complies with new production requirements.",
-        "Modify legacy code, VB6 to  to complies with new production requirements.",
-        "Administer and optimize Web Applications code through refactoring. Those applications were used by approximately 300 users to generate reports and trends of manufacturing process data.",
+        "Modify ASP.NET applications on C# and VB.NET to comply with new production requirements.",
+        "Modify legacy code, VB6 to comply with new production requirements.",
+        "Administer and optimize web application code through refactoring. Those applications were used by approximately 300 users to generate reports and trends of manufacturing process data. The execution time of reports was reduced in most of the cases by the 50%.",
         "Train and provide support to personnel from different areas in order to maximize the knowledge gathered from automated tools."
       ]
     },
@@ -57,13 +57,13 @@
       "website": "",
       "startDate": "2004-01-10",
       "endDate": "2009-12-31",
-      "summary": "Design critical applications for the Active Pharmaceutical Ingredients (API) and Stability areas using .NET, iFix 3.5. Build and code modules to extract data from DeltaV, PROVOX and others automation systems. Validate computers systems and software using the strictest standards of the company and Pharmaceutical Industry.",
+      "summary": "Design critical applications for the Active Pharmaceutical Ingredients (API) and Stability areas using .NET, iFix 3.5. Build and code modules to extract data from DeltaV, PROVOX and other automation systems. Validate computers systems and software using the strictest standards of the company and Pharmaceutical Industry.",
       "highlights": [
           "Worked on multiple project of batch and continuous process control programming.",
           "Configure, optimize and administrate different Microsoft SQL Servers.",
           "Translate code from VB6 to VB.NET.",
           "Design, code and debug web applications using ASP.NET and Crystal Reports.",
-          "Create an application to automate the creation of batch recipies."
+          "Create an application to automate the creation of batch recipes."
       ]
     },
     {
@@ -75,7 +75,7 @@
       "summary": "Design webpages and web application using open source tools and packages.",
       "highlights": [
           "Design according to the standards of the W3C.",
-          "System were build mostly using PHP, MySQL, HTML and CSS."
+          "Developed systems using PHP, MySQL, HTML and CSS."
       ]
     }
   ],
@@ -99,7 +99,7 @@
       "endDate": "2003-01-07",
       "summary": "Radio Alianza is a radio station broadcasting a Religious format in the south area of Spain.",
       "highlights": [
-        "Led the migration and automatization of the old software that manages the programming of the radio station."
+        "Led the migration and automation of the old software that manages the programming of the radio station."
       ]
     }
   ],
