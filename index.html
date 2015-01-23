@@ -1,0 +1,615 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jaime A. Olmo Hernández</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jaime A. Olmo Hernández
+					</h1>
+					<h2>
+						Programmer &amp; Computer Scientist
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jaimeolmo@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(787) 604-4757</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://jaimeolmo.com">http://jaimeolmo.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>After 10 years successfully serving the pharmaceutical industry I will like to contribute all this experience to what really I am passionate about, the development of software. I want to be part of a team who really love best coding practices.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/jamesxv7">jamesxv7</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/jamesxv7">jamesxv7</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="pr.linkedin.com/in/jaimeolmo/">Jaime Olmo</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>M+W Automation</span>
+					<span class="date">
+						2010-01-10 — 2016-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mwgroup.net/">http://www.mwgroup.net/</a>
+				</div>
+				<div class="position">
+					Automation/Manufacturing IT Specialist
+				</div>
+				<div class="summary">
+					<p>Successfully proven in the following areas, System and Database Administration, Maintaining In-house developed applications and Project Management. With my knowledge in SQL and Computer Programming I integrated Heterogeneous Systems into simple business solutions.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Administrate a Data Historian System of 100K items.</li>
+					<li class="bullet">Coordinate Control Systems and Historian Systems upgrades with minimum downtime to the manufacturing process.</li>
+					<li class="bullet">Acquire and analyze raw data using SQL to support process investigations.</li>
+					<li class="bullet">Migrate ASP.NET 1.1 code to .NET 4.0.</li>
+					<li class="bullet">Modify ASP.NET applications on C# and VB.NET to complies with new production requirements.</li>
+					<li class="bullet">Modify legacy code, VB6 to  to complies with new production requirements.</li>
+					<li class="bullet">Administer and optimize Web Applications code through refactoring. Those applications were used by approximately 300 users to generate reports and trends of manufacturing process data.</li>
+					<li class="bullet">Train and provide support to personnel from different areas in order to maximize the knowledge gathered from automated tools.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Coneco de Puerto Rico</span>
+					<span class="date">
+						2004-01-10 — 2009-12-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Automation Specialist
+				</div>
+				<div class="summary">
+					<p>Design critical applications for the Active Pharmaceutical Ingredients (API) and Stability areas using .NET, iFix 3.5. Build and code modules to extract data from DeltaV, PROVOX and others automation systems. Validate computers systems and software using the strictest standards of the company and Pharmaceutical Industry.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked on multiple project of batch and continuous process control programming.</li>
+					<li class="bullet">Configure, optimize and administrate different Microsoft SQL Servers.</li>
+					<li class="bullet">Translate code from VB6 to VB.NET.</li>
+					<li class="bullet">Design, code and debug web applications using ASP.NET and Crystal Reports.</li>
+					<li class="bullet">Create an application to automate the creation of batch recipies.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ecodig</span>
+					<span class="date">
+						2001-01-01 — 2005-12-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Freelance Web Developer
+				</div>
+				<div class="summary">
+					<p>Design webpages and web application using open source tools and packages.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Design according to the standards of the W3C.</li>
+					<li class="bullet">System were build mostly using PHP, MySQL, HTML and CSS.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ONG Compartir – Madrid, Spain</span>
+					<span class="date">
+						2004-01-06 — 2004-01-07
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					IT Consultant
+				</div>
+				<div class="summary">
+					<p>The focus of this organization is to create awareness of the moral and cultural values in children of Madrid.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Design all the press and multimedia campaign: &#x27;Echale la mano a un niño&#x27;.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Radio Alianza Cristiana 90.8 – Almería, Spain</span>
+					<span class="date">
+						2003-01-06 — 2003-01-07
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					IT Consultant
+				</div>
+				<div class="summary">
+					<p>Radio Alianza is a radio station broadcasting a Religious format in the south area of Spain.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Led the migration and automatization of the old software that manages the programming of the radio station.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Polytechnic University of Puerto Rico, Arecibo</span>
+					<span class="date">
+						2014-02-01 — 2016-12-23
+					</span>
+				</h4>
+				<div class="area">
+					Computer Engineering
+				</div>
+				<div class="studyType">
+					Currently enrolled
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Puerto Rico, Arecibo</span>
+					<span class="date">
+						1999-08-01 — 2005-12-23
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor (incomplete)
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Personal blog</span>
+					<span class="date">
+						January 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://jaimeolmo.com"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Self-published</strong>
+				</div>
+				<div class="summary">
+					<p>Personal publishing to stay up to date on topics about software and web designs patterns and practices.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Que es el Application Pool en IIS 6.0</span>
+					<span class="date">
+						January 2011
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://goo.gl/V03omB"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Self-published on Scribd</strong>
+				</div>
+				<div class="summary">
+					<p>Options and benefits of using meta tags to optimize the management of search engines on a website.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ventajas de usar METAS</span>
+					<span class="date">
+						February 2004
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://goo.gl/GvlZJ8"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Maestros del Web</strong>
+				</div>
+				<div class="summary">
+					<p>Options and benefits of using meta tags to optimize the management of search engines on a website.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front End Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>SASS</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>PHP</li>
+					<li>C#</li>
+					<li>APS.NET MVC</li>
+					<li>Vagrant</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Databases</h4>
+				</div>
+				<ul class="keywords">
+					<li>MS SQL</li>
+					<li>MySQL</li>
+					<li>Normalization</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish and English</strong>
+				</div>
+				<div class="fluency">
+					Bilingual
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Art</h4>
+				</div>
+				<ul class="keywords">
+					<li>Photography</li>
+					<li>Minimalism</li>
+					<li>Color Theory</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Science</h4>
+				</div>
+				<ul class="keywords">
+					<li>Physics</li>
+					<li>Running</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
