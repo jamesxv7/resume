@@ -1,130 +1,209 @@
 {
   "basics": {
-    "name": "Jaime A. Olmo",
-    "label": "Programmer",
+    "name": "Jaime A. Olmo Hernández",
+    "label": "Programmer & Computer Scientist",
     "picture": "",
     "email": "jaimeolmo@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "(787) 604-4757",
+    "website": "http://jaimeolmo.com",
+    "summary": "After 10 years successfully serving the pharmaceutical industry I will like to contribute all this experience to what really I am passionate about, the development of software. I want to be part of a team who really love best coding practices.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Urb. Las Praderas 1152",
+      "postalCode": "00617",
+      "city": "Barceloneta",
       "countryCode": "US",
-      "region": "California"
+      "region": "Puerto Rico"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "jamesxv7",
+        "url": "https://twitter.com/jamesxv7"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "GitHub",
+        "username": "jamesxv7",
+        "url": "https://github.com/jamesxv7"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Jaime Olmo",
+        "url": "pr.linkedin.com/in/jaimeolmo/"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "M+W Automation",
+      "position": "Automation/Manufacturing IT Specialist",
+      "website": "http://www.mwgroup.net/",
+      "startDate": "2010-01-10",
+      "endDate": "2016-07-01",
+      "summary": "Successfully proven in the following areas, System and Database Administration, Maintaining In-house developed applications and Project Management. With my knowledge in SQL and Computer Programming I integrated Heterogeneous Systems into simple business solutions.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Administrate a Data Historian System of 100K items.",
+        "Coordinate Control Systems and Historian Systems upgrades with minimum downtime to the manufacturing process.",
+        "Acquire and analyze raw data using SQL to support process investigations.",
+        "Migrate ASP.NET 1.1 code to .NET 4.0.",
+        "Modify ASP.NET applications on C# and VB.NET to complies with new production requirements.",
+        "Modify legacy code, VB6 to  to complies with new production requirements.",
+        "Administer and optimize Web Applications code through refactoring. Those applications were used by approximately 300 users to generate reports and trends of manufacturing process data.",
+        "Train and provide support to personnel from different areas in order to maximize the knowledge gathered from automated tools."
+      ]
+    },
+    {
+      "company": "Coneco de Puerto Rico",
+      "position": "Automation Specialist",
+      "website": "",
+      "startDate": "2004-01-10",
+      "endDate": "2009-12-31",
+      "summary": "Design critical applications for the Active Pharmaceutical Ingredients (API) and Stability areas using .NET, iFix 3.5. Build and code modules to extract data from DeltaV, PROVOX and others automation systems. Validate computers systems and software using the strictest standards of the company and Pharmaceutical Industry.",
+      "highlights": [
+          "Worked on multiple project of batch and continuous process control programming.",
+          "Configure, optimize and administrate different Microsoft SQL Servers.",
+          "Translate code from VB6 to VB.NET.",
+          "Design, code and debug web applications using ASP.NET and Crystal Reports.",
+          "Create an application to automate the creation of batch recipies."
+      ]
+    },
+    {
+      "company": "Ecodig",
+      "position": "Freelance Web Developer",
+      "website": "",
+      "startDate": "2001-01-01",
+      "endDate": "2005-12-31",
+      "summary": "Design webpages and web application using open source tools and packages.",
+      "highlights": [
+          "Design according to the standards of the W3C.",
+          "System were build mostly using PHP, MySQL, HTML and CSS."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "ONG Compartir – Madrid, Spain",
+      "position": "IT Consultant",
+      "website": "",
+      "startDate": "2004-01-06",
+      "endDate": "2004-01-07",
+      "summary": "The focus of this organization is to create awareness of the moral and cultural values in children of Madrid.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Design all the press and multimedia campaign: 'Echale la mano a un niño'."
+      ]
+    },
+    {
+      "organization": "Radio Alianza Cristiana 90.8 – Almería, Spain",
+      "position": "IT Consultant",
+      "website": "",
+      "startDate": "2003-01-06",
+      "endDate": "2003-01-07",
+      "summary": "Radio Alianza is a radio station broadcasting a Religious format in the south area of Spain.",
+      "highlights": [
+        "Led the migration and automatization of the old software that manages the programming of the radio station."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+      "institution": "Polytechnic University of Puerto Rico",
+      "area": "Computer Engineering",
+      "studyType": "Currently enrolled",
+      "startDate": "2014-02-01",
+      "endDate": "2016-12-23",
+      "gpa": "",
+      "highlights": [
+        "President of the Computer Science Students’ Association"
+      ]
+    },
+    {
+      "institution": "University of Puerto Rico, Arecibo",
+      "area": "Computer Science",
+      "studyType": "Bachelor (incomplete)",
+      "startDate": "1999-08-01",
+      "endDate": "2005-12-23",
+      "gpa": "",
+      "Highlights": [
+        "President of the Computer Science Students’ Association"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
+  "awards": [],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Personal blog",
+      "publisher": "Self-published",
+      "releaseDate": "January 2013",
+      "website": "http://jaimeolmo.com",
+      "summary": "Personal publishing to stay up to date on topics about software and web designs patterns and practices."
+    },
+    {
+      "name": "Que es el Application Pool en IIS 6.0",
+      "publisher": "Self-published on Scribd",
+      "releaseDate": "January 2011",
+      "website": "http://goo.gl/V03omB",
+      "summary": "Options and benefits of using meta tags to optimize the management of search engines on a website."
+    },
+    {
+      "name": "Ventajas de usar METAS",
+      "publisher": "Maestros del Web",
+      "releaseDate": "February 2004",
+      "website": "http://goo.gl/GvlZJ8",
+      "summary": "Options and benefits of using meta tags to optimize the management of search engines on a website."
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Front End Web Development",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
+        "SASS",
         "Javascript"
       ]
     },
     {
-      "name": "Compression",
+      "name": "Backend Web Development",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "PHP",
+        "C#",
+        "APS.NET MVC",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "MS SQL",
+        "MySQL",
+        "Normalization"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Spanish and English",
+      "fluency": "Bilingual"       
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Art",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Photography",
+        "Minimalism",
+        "Color Theory"
+      ]
+    },
+    {
+      "name": "Science",
+      "keywords": [
+        "Physics",
+        "Running"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "references": []
 }
